@@ -81,7 +81,7 @@ export default class PathfindingVisualizer extends Component {
         <div className='pf'>
         <h1>Path Finder</h1>
         </div>
-        <p>Slect the Black Blocks connecting each other !! then click on (Visualize Dijkstra's Algorithm) Button</p>
+        <p>Select the Black Blocks connecting each other by clicking !! then click on (Visualize Dijkstra's Algorithm) Button</p>
         <button onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button>
